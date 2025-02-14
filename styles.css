@@ -1,0 +1,37 @@
+body {
+    background-color: #242b68;
+}
+h1 {
+    color: #f8f9fa;
+}
+.mb-3 label {
+    color: #f8f9fa;
+}
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    color: #242b68
+}
+.task-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #242b68
+}
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+#clock {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+}
+.edit-box {
+    background: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
